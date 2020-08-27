@@ -39,7 +39,7 @@ passpord=123456
 
 4. 登录成功后，真正进行授权码的申请
 
-oauth/authorize 认证成功，会根据 redirect_uri 执行 302 重定向，并且带上生成的 code，注意重定向到的是 8001 端口，这个时候已经是另外一个应用了。
+oauth/authorize 认证成功，会根据 redirect_uri 执行 302 重定向，并且带上生成的 code，注意重定向到的是 8081 端口，这个时候已经是另外一个应用了。
 
 ```http
 localhost:8081/aiqiyi/qq/redirect?code=xxxx
